@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmakers.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="signUp-container" id="signUp" style="display: none;">
+
+        <h1 class="form-title">Register</h1>
+
+        <form action="#" method="post">
+                <label for="fname">Fist Name</label>
+                <input type="text" name="fname" id="fname" required>
+                <label for="fname">Last Name</label>
+                <input type="text" name="lname" id="lname" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <input type="submit" id="submitIn" class="btn" value="Sign Up" name="SignUp">
+
+        </form>
+
+        <div class="links">
+            <p>Already Have Account ?</p>
+            <button id="signInButton">Sign In</button>
+        </div>
+    </div>
+    
+    <div class="signIn-container" id="signIn" style="display: block;">
+
+        <h1 class="form-title">Sign In</h1>
+
+        <form action="#" method="post">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <input type="submit" id="submitUp" class="btn" value="Sign In" name="SignIn">
+        </form>
+
+        <div class="links">
+            <p>Don't Have Account ?</p>
+            <button id="signUpButton">Sign Up</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
